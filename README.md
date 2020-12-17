@@ -15,7 +15,7 @@ https://yuki-katayama.github.io/Tag-game/index.html
 + 豆 → 鬼を撃退
 
 キー操作
-+ [A, W, S, D] or [←, →, ↑, ↓]
+[←, →, ↑, ↓]
 
 ### コードの変更可能点
 game.jsで、以下の点が変更可能
@@ -23,3 +23,28 @@ game.jsで、以下の点が変更可能
 + 制限時間
 + 鬼が追加されるタイミング
 + 敵の追跡スピード etc..
+
+## English
+### Summary
+This is a game where you have to keep running away from the enemy during the time limit.
+
+### Rules.
++ Every 20 seconds, the number of enemies increases by one.
+
+Items.
++ Salt → Repel ghosts.
++ Onion → Repel Dracula
++ beans → repel demons
+
+Key Controls
+[←, →, ↑, ↓].
+
+### Possible code changes
+The following points can be changed in game.js
++ Frequency of item appearance cycle
++ Time limit
++ When demons are added.
++ Enemy tracking speed etc.
+
+![pic-1](https://i.gyazo.com/be366ae04a632e31c7b29cbc42ba561a.png)
+![pic-2](https://i.gyazo.com/091f99f3d46ec21368a04eb3375109b8.png)
